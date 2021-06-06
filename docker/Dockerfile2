@@ -1,0 +1,3 @@
+FROM nginx:alpine
+
+RUN echo "Hello from NGINX DOCKER" > /usr/share/nginx/html/index.html
